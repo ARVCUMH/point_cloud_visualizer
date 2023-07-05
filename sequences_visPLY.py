@@ -12,7 +12,6 @@ def vis_dict(dict):
     pcd = open3d.io.read_point_cloud(pcds[idx])
     vis.add_geometry(pcd)
 
-    # Color
     def right_click(vis):
         nonlocal idx
         idx = idx + 1
